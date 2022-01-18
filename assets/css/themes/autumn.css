@@ -1,0 +1,25 @@
+ul.feature-icons li:before {
+    background: #8a4b72;
+}
+
+#header {
+    background: #8a4b72;
+    color: #e7e7e7;
+}
+
+
+#header header p {
+    color: #ce6ec4;
+}
+
+#header>footer .icons li a {
+    color: #ce6ec4;
+}
+
+#header>nav ul li {
+    border-top: solid 2px #ce6ec4;
+}
+
+#header>nav ul li a.active {
+    color: #ce6ec4 !important;
+}
