@@ -20,6 +20,11 @@ function setTheme(season) {
     document.getElementById('theme').href = `assets/css/themes/${season}.css`
 }
 
+function setThemeMenu(){
+    var popup = document.getElementById("themeSelect");
+    popup.classList.toggle("show");
+}
+
 function getSeason() {
     let date = new Date();
     //winter 21 december, 20 march

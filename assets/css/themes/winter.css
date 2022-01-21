@@ -22,3 +22,15 @@ ul.feature-icons li:before {
 #header>nav ul li a.active {
     color: #4acaa8 !important;
 }
+
+.popup .popuptext {
+    background-color: #4acaa8;
+}
+
+.popup .popuptext {
+    color: #b7eadc;
+}
+
+.option {
+    color: #3fc3d1;
+}

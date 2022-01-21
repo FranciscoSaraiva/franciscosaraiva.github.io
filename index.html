@@ -41,8 +41,16 @@
 						<li><a href="https://open.spotify.com/user/0r0vwqqsbtzb8rt8qdou9jcvm/" class="icon brands fa-spotify"><span class="label">Spotify</span></a></li>
 						<li><a href="https://www.tripadvisor.pt/Profile/FranciscoSaraiva94" class="icon brands fa-tripadvisor"><span class="label">TripAdvisor</span></a></li>						
 					</ul>
-					<a href="javascript:;" class="icon solid fas fa-cog" ><span class="label">Theme</span></a> 
-					<!--onclick="setTheme('summer')"-->
+					<div class="popup" onclick="setThemeMenu()" >
+						<a href="javascript:;"  class="icon solid fas fa-cog" ></a> 
+						<select class="popuptext" name="" id="themeSelect">
+							<option class="option" value="winter" onclick="setTheme('winter')">Winter</option>
+							<option class="option" value="spring" onclick="setTheme('spring')">Spring</option>
+							<option class="option" value="summer" onclick="setTheme('summer')">Summer</option>
+							<option class="option" value="autumn" onclick="setTheme('autumn')">Autumn</option>							
+						</select>
+					</div>					
+					<!---->
 				</footer>
 			</section>
 
